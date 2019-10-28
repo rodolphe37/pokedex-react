@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import logo from './iconecroix.png';
 import './NavBar.css';
-//import classnames from 'classnames';
 
 const Branding = styled.a`
   -moz-user-select: none;

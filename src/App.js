@@ -1,31 +1,16 @@
 import React, { Component } from 'react';
-import Pokedex from './Pokedex';
-import Modal from 'react-responsive-modal';
- 
+import Modale from './Modale';
+
 class App extends Component {
-  state = {
-    open: false,
-  };
- 
-  onOpenModal = () => {
-    this.setState({ open: true });
-  };
- 
-  onCloseModal = () => {
-    this.setState({ open: false });
-  };
- 
-  render() {
-    const { open } = this.state;
-    return (
-      <div>
-        <button onClick={this.onOpenModal}>Open modal</button>
-        <Modal open={open} onClose={this.onCloseModal} center>
-         <Pokedex />
-        </Modal>
-      </div>
-    );
+    
+   
+    render() {
+      return (
+        <div className = "App">
+          <Modale />
+        </div>
+      );
+    }
   }
-}
- 
-  export default App; 
+   
+    export default App; 
