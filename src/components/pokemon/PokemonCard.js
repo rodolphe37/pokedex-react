@@ -35,8 +35,7 @@ const StyledLink = styled(Link)`
     text-decoration: none;
   }
 `;
-
-export default class PokemonCard extends Component {
+class PokemonCard extends Component {
   state = {
     name: '',
     imageUrl: '',
@@ -103,3 +102,5 @@ export default class PokemonCard extends Component {
     );
   }
 }
+
+export default PokemonCard;
