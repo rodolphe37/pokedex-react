@@ -168,8 +168,7 @@ export default class Pokemon extends Component {
     this.setState({
       imageUrl,
       pokemonIndex,
-      name,default:
-      break;
+      name,
       types,
       stats: {
         hp,
