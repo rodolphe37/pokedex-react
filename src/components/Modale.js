@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Pokedex from './Pokedex';
+import Pokedex from './Pokedex/Pokedex';
 import Modal from 'react-responsive-modal';
  
 class Modale extends Component {

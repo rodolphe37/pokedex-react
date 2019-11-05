@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Modale from './Modale';
+import Modale from './components/Modale';
 
 class App extends Component {
     
@@ -14,4 +14,3 @@ class App extends Component {
   }
    
     export default App; 
-    

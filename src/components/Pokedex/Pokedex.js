@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import './Pokedex.css';
 import backgroundImage from './pattern.png';
-import NavBar from './components/layout/NavBar/NavBar';
-import Dashboard from './components/layout/Dashboard';
-import Pokemon from './components/pokemon/Pokemon';
+import NavBar from '../layout/NavBar/NavBar';
+import Dashboard from '../layout/Dashboard';
+import Pokemon from '../pokemon/Pokemon';
 
 class Pokedex extends Component {
   render() {
