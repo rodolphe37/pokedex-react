@@ -11,7 +11,7 @@ class Pokedex extends Component {
   render() {
     return (
       <Router>
-        <div className="App" style={{ background: `url(${backgroundImage})` }}>
+        <div className="pokedex" style={{ background: `url(${backgroundImage})` }}>
           <NavBar />
           <div className="container">
             <Switch>

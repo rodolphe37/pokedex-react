@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Modale from './components/Modale';
+import Pokedex from './components/Pokedex/Pokedex';
 
 class App extends Component {
     
@@ -7,7 +7,7 @@ class App extends Component {
     render() {
       return (
         <div className = "App">
-          <Modale />
+          <Pokedex />
         </div>
       );
     }
